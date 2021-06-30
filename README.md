@@ -1,2 +1,8 @@
-# consumindo-APIs
-Consumindo APIs no back-end e no front-end, usando fecth API, e buscando outra API no back-end.
+# Consumindo APIs
+Consumindo API no back-end, e consumindo no front-end a API criada no back-end usando fecth.
+
+Fecth
+Axios
+Express
+Node
+Html, Css e JavaScript
