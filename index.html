@@ -14,7 +14,7 @@
   <header>
     <h1>Conversor de moeda</h1>
   </header>
-  <main>
+  <main class="content">
     <section class="coinSection">
       <div class="coin">
         <p class="descriptionCoin">Dólar hoje</p>
@@ -24,13 +24,18 @@
     <section class="converterSection">
       <div class="converter">
         <div class="QtCoin">
-          <label for="dolarCoverter">Dolar para Real</label>
-          <input type="number" name="dolarConverter" id="dolarConverter" placeholder="Apenas números">
-          <input type="submit" value="Converter" id="converterCoinDolar">
-
-          <label for="realCoverter">Dolar para Real</label>
-          <input type="number" name="realConverter" id="realConverter" placeholder="Apenas números">
-          <input type="submit" value="Converter" id="converterCoinReal">
+          <div class="dolarReal">
+            <label for="dolarCoverter">Dolar para Real</label>
+            <input type="number" name="dolarConverter" id="dolarConverter" placeholder="Apenas números">
+            <input type="submit" value="Converter" id="converterCoinDolar">
+          </div>
+          
+          <div class="realDolar">
+            <label for="realCoverter">Real para Dolar</label>
+            <input type="number" name="realConverter" id="realConverter" placeholder="Apenas números">
+            <input type="submit" value="Converter" id="converterCoinReal">
+          </div>
+          
         </div>
         <div class="res">R$ 3.000,00</div>
       </div>

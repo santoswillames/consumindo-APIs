@@ -8,3 +8,42 @@ body {
   font-family: 'Poppins', sans-serif;
   background: #f0f2f5;
 }
+
+header {
+  background: #2d4022;
+  padding: 2rem;
+  padding-bottom: 12rem;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-weight: 300;
+}
+
+.content {
+  width: min(90vw, 800px);
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  margin-top: -8rem;
+  padding: 8rem;
+  border-radius: 0.4rem;
+}
+.coinSection {
+  width: 50%;
+  height: 50%;
+  font-size: 1.5rem;
+  background-color: #4a8b24;
+  color: white;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+
+.converterSection {
+  width: 80%;
+  height: 50%;
+  padding: 2rem;
+}
