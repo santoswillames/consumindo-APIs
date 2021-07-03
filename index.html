@@ -48,7 +48,7 @@
       // Usando try catch para capturar o erro se for retornado
       try {
         // Usando função async para esperar a resposta da fetch
-        const response = await fetch('http://localhost:5500/')
+        const response = await fetch('http://localhost:5500/api')
         const data = await response.json()
         document.querySelector('.todayCoin').innerHTML = 'R$ ' + data.USDBRL.bid
 
