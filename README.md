@@ -6,7 +6,7 @@ Habilitando e usando o cors no navegador.
 
 API que fornece o Valor do Dolar em tempo real extraida da <a href="https://docs.awesomeapi.com.br/api-de-moedas">AwesomeApi</a>
 
-<img src="/public/home-page">
+<img src="/public/home-page.jpg">
 
 
 ## Iniciando o projeto
