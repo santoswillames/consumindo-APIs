@@ -37,8 +37,6 @@
                 id="converterCoinDolar"
               />
             </div>
-
-<<<<<<< HEAD
             <div class="realDolar">
               <label for="realCoverter">Real para Dólar</label>
               <input type="number" name="realConverter" id="realConverter" />
@@ -56,37 +54,4 @@
     </main>
     <script src="./public/index.js"></script>
   </body>
-=======
-        function dolarConverter() {
-          realValue.value = ''
-          let total = dolarValue.value * data.USDBRL.bid
-          if (divRes.classList) divRes.classList.add("res")
-          else divRes.className += " res"
-          divRes.innerHTML = `Sua conversão resultou em R$${total.toFixed(4)}`
-      
-       }
-
-       function realConverter() {
-         dolarValue.value = ''
-          let total = realValue.value / data.USDBRL.bid
-          if (divRes.classList) divRes.classList.add("res")
-          else divRes.className += " res"
-          divRes.innerHTML = `Sua conversão resultou em US$${total.toFixed(4)}`
-      
-       }
-        
-      } catch (error) {
-        console.error(error)
-      }
-    }
-    getContent()
-    
-    //Pegando os elementos e adicionando em variáveis
-    
-
-    
-    
-  </script>
-</body>
->>>>>>> 0d7f3021cef47fc96b5b0c76f9b5bc53777c5f28
 </html>
